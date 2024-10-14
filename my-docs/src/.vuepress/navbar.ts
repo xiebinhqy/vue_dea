@@ -4,6 +4,7 @@ export default navbar([
   "/",
   "/portfolio",
   "/demo/",
+  "/cms/",
   {
     text: "指南",
     icon: "lightbulb",

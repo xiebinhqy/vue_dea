@@ -12,6 +12,13 @@ export default sidebar({
       children: "structure",
     },
     {
+      text: "功能战士",
+      icon: "laptop-code",
+      prefix: "cms/",
+      link: "cms/",
+      children: "structure",
+    },
+    {
       text: "文档",
       icon: "book",
       prefix: "guide/",
