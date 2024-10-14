@@ -33,6 +33,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/demo/encrypt.html": ["deattor"],
+      "/cms/cms.html": ["1234"],
     },
   },
 

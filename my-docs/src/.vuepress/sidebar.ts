@@ -30,4 +30,21 @@ export default sidebar({
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
     },
   ],
+  "/ebc/" :[
+    "",
+    {
+      text: "EBC部署",
+      icon: "laptop-code",
+      prefix: "bushu/",
+      link: "bushu/",
+      children: "structure",
+    },
+    {
+      text: "EBC完成",
+      icon: "laptop-code",
+      prefix: "wancheng/",
+      link: "wancheng/",
+      children: "structure",
+    },
+  ],
 });

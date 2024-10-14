@@ -1,6 +1,6 @@
 ---
 title: 后台功能与演示
-index: flase
+index: true
 icon: laptop-code
 category:
   - 测试指南
