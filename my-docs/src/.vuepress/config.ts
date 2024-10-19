@@ -1,3 +1,4 @@
+import { navbar } from 'vuepress-theme-hope';
 import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";

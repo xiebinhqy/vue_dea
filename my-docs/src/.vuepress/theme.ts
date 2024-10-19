@@ -5,7 +5,6 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
   author: {
     name: "dea.bin",
     url: "https://mister-hope.com",
@@ -21,10 +20,8 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
-
   // 侧边栏
   sidebar,
-
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
@@ -48,6 +45,7 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    searchPro : true,
     comment: {
       provider: "Giscus",
       repo: "vuepress-theme-hope/giscus-discussions",

@@ -1,5 +1,5 @@
 ---
-title: Bar 功能
+title: 趋势类EA
 icon: lightbulb
 ---
 

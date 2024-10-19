@@ -4,24 +4,31 @@ export default navbar([
   "/",
   "/portfolio",
   "/demo/",
-  "/ebc/",
+  "/Strategic_ideas/",
   {
-    text: "指南",
+    text: "外汇EA",
     icon: "lightbulb",
-    prefix: "/guide/",
+    prefix: "/Forex/",
     children: [
       {
-        text: "Bar",
+        text: "策略中心",
         icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
-      },
-      {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
-      },
+        prefix: "qushi/",
+        //children: ["README", { text: "趋势EA归类", icon: "book", link: "" }],
+        children: [
+          "", 
+          { 
+            text: "趋势EA归类",
+            icon: "book", 
+            link: "/qushi" 
+          },
+          { 
+            text: "震荡类EA",
+            icon: "book", 
+            link: "/zhendang" 
+          },
+        ],
+      }
     ],
   },
   // {

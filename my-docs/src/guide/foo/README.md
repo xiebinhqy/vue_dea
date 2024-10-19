@@ -1,5 +1,5 @@
 ---
-title: Foo 功能
+title: 趋势网格策略
 icon: lightbulb
 ---
 

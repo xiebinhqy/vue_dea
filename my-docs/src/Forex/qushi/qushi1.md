@@ -1,5 +1,5 @@
 ---
-title: 自动化
+title: 这个是趋势三的文档
 icon: lightbulb
 ---
 
@@ -14,3 +14,4 @@ icon: lightbulb
 
 - [ray](foo/ray.md)
 - ...
+

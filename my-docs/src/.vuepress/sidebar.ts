@@ -19,12 +19,6 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "文档",
-      icon: "book",
-      prefix: "guide/",
-      children: "structure",
-    },
-    {
       text: "幻灯片",
       icon: "person-chalkboard",
       link: "https://ecosystem.vuejs.press/zh/plugins/markdown/revealjs/demo.html",
@@ -47,4 +41,38 @@ export default sidebar({
       children: "structure",
     },
   ],
+  "/Strategic_ideas/" :[
+    "",
+    {
+      text: "EBC部署",
+      icon: "laptop-code",
+      prefix: "bushu/",
+      link: "bushu/",
+      children: "structure",
+    },
+    {
+      text: "EBC完成",
+      icon: "laptop-code",
+      prefix: "wancheng/",
+      link: "wancheng/",
+      children: "structure",
+    },
+  ],
+  "/Forex/" :[
+    {
+      text: "文档",
+      icon: "book",
+      prefix: "qushi/",
+      link: "qushi/",
+      children: "structure",
+    },
+    {
+      text: "讲解",
+      icon: "book",
+      prefix: "zhendang/",
+      link: "zhendang/",
+      children: "structure",
+    },
+  ],
 });
+
